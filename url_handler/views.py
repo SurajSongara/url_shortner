@@ -7,7 +7,7 @@ from django.conf import settings
 
 # Create your views here.
 
-HOST_URL='domain'
+HOST_URL=settings.ALLOWED_HOSTS[0]
 def home(request, query=None):
     if not query or query is None:
         return redirect(dashboard)
