@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'dwbz@o-%=5^yi3ud%t$r(+d6+*&f81w0tmgv(vcd5^2)js-ah*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['scutly.herokuapp.com']
 
